@@ -3,6 +3,7 @@ import json
 from pprint import pprint 
 
 handle           = 'lain@pleroma.soykaf.com'
+# handle           = 'JoannaMasel@fediscience.org'
 username, domain = handle.split('@')
 
 wf_url = 'https://{}/.well-known/webfinger'.format(domain)
