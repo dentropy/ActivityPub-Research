@@ -1,18 +1,11 @@
-import generator, { MegalodonInterface } from 'megalodon'
+import generator, { Entity, Response } from 'megalodon'
 
-declare var process: {
-  env: {
-    MISSKEY_ACCESS_TOKEN: string
-  }
-}
 
-const BASE_URL: string = 'https://misskey.io'
+const BASE_URL: string = 'https://mastadon.social'
+const access_token: string = ''
 
-const access_token: string = process.env.MISSKEY_ACCESS_TOKEN
-
-const client: MegalodonInterface = generator('misskey', BASE_URL, access_token)
-
-client
-  .verifyAccountCredentials()
-  .then(res => console.log(res.data))
-  .catch(err => console.error(err))
+const client = generator('mastodon', BASE_URL, access_token)
+client.getHomeTimeline()
+  .then((res: Response<Array<Entity.Status>>) => {
+    console.log(res.data)
+  })

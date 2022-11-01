@@ -35,8 +35,11 @@
 
 ``` bash
 npm install -g ts-node typescript '@types/node'
+npm i --save-dev @types/node
 
 npx ts-node typescript-file.ts
+
+ts-node-esm typescript-file.ts
 ```
 
 ## Instructions
@@ -45,6 +48,11 @@ TODO
 
 ## TODO Research
 
+* AWESOME LISTS
+  * [tleb/awesome-mastodon: Curated list of awesome Mastodon-related stuff!](https://github.com/tleb/awesome-mastodon)
+* Other
+  * [Trunk for the Fediverse](https://communitywiki.org/trunk)
+  * [Access Token Generator for Mastodon API](https://takahashim.github.io/mastodon-access-token/?code=uNiIGtL4L4AxsDHgk8XBSPTQDaypFOB8YNB_7J_eT0M)
 * API Documentation
   * [Fetching ActivityPub Feeds - Gokberk Yaltirakli](https://www.gkbrk.com/2018/06/fetching-activitypub-feeds/)
   * [GitHub - h3poteto/megalodon: Mastodon, Pleroma and Misskey API client library for node.js and browser](https://github.com/h3poteto/megalodon)
