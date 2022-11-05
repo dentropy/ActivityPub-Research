@@ -9,11 +9,11 @@
 ## Index entire ActivityPub Profile
 
 * Functions
-  * Get number of posts
-  * Get all posts
-  * Get following
-  * Get followers
-  * Get profile description
+  * CHECK Index all posts from specific user
+  * Get all followers of specific user
+  * Get all users a user follows
+  * CHECK Get profile description
+    * Get number of posts from specific user
   * Get likes
   * Get pinned posts
   * Get Replies
@@ -48,6 +48,13 @@ TODO
 
 ## TODO Research
 
+* [MastoVue | Mastodon Timeline Viewer](https://mastovue.glitch.me/#/)
+* Get a working example that pull's data
+  * [Playing with public data - Mastodon documentation](https://docs.joinmastodon.org/client/public/)
+  * Megalodon
+    * [GitHub - h3poteto/megalodon: Mastodon, Pleroma and Misskey API client library for node.js and browser](https://github.com/h3poteto/megalodon)
+    * [megalodon](https://h3poteto.github.io/megalodon/)
+    * [h3poteto/megalodon-rs: Mastodon and Pleroma API client library for Rust](https://github.com/h3poteto/megalodon-rs)
 * AWESOME LISTS
   * [tleb/awesome-mastodon: Curated list of awesome Mastodon-related stuff!](https://github.com/tleb/awesome-mastodon)
 * Other
@@ -55,7 +62,6 @@ TODO
   * [Access Token Generator for Mastodon API](https://takahashim.github.io/mastodon-access-token/?code=uNiIGtL4L4AxsDHgk8XBSPTQDaypFOB8YNB_7J_eT0M)
 * API Documentation
   * [Fetching ActivityPub Feeds - Gokberk Yaltirakli](https://www.gkbrk.com/2018/06/fetching-activitypub-feeds/)
-  * [GitHub - h3poteto/megalodon: Mastodon, Pleroma and Misskey API client library for node.js and browser](https://github.com/h3poteto/megalodon)
   * [Misskey API](https://misskey.io/api-doc)
   * [Getting started with the API - Mastodon documentation](https://docs.joinmastodon.org/client/intro/)
   * [Pleroma API - Pleroma Documentation](https://docs-develop.pleroma.social/backend/development/API/pleroma_api/)
